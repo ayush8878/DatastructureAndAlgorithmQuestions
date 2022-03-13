@@ -17,7 +17,7 @@ public class TripletUsingPointer {
     private static List<List<Integer>> findTriplet(int targetSum, int[] arr) {
         Arrays.sort(arr);
         List<List<Integer>> triplets = new ArrayList<>();
-        for(int i=0;i<arr.length;i++)
+        for(int i=0;i<arr.length-3;i++)
         {
             int base = arr[i];
             int front = i+1;
