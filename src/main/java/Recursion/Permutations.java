@@ -3,6 +3,7 @@ package Recursion;
 import java.util.ArrayList;
 import java.util.List;
 
+/* Issue with duplicates */
 public class Permutations {
     public static void main(String[] args) {
         String str = "abc";
@@ -10,7 +11,7 @@ public class Permutations {
     }
 
     private static void generatePermutations(String str,int left,int right) {
-        if(left == right)
+        if(left == str.length())
         {
             System.out.println(str);
             return;
