@@ -1,7 +1,5 @@
 package DynamicProgramming.TopDown;
 
-import java.util.Arrays;
-
 public class MaxNonAdjSum {
 
     public static void main(String[] args) {
